@@ -4,8 +4,8 @@ import os
 
 load_dotenv("api.env")
 url = "https://api.openweathermap.org/data/2.5/weather"
+
 api_key=os.getenv("API_KEY")
-print(api_key)
 name=input("Enter your city name: ")
 args = {
     "q": name ,
