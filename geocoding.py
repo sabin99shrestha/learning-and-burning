@@ -3,7 +3,7 @@ import os
 import requests
 import json
 
-load_dotenv()  # Load environment variables from .env file
+load_dotenv("api.env")  # Load environment variables from .env file
 url="https://api.api-ninjas.com/v1/geocoding"
 
 city=input("Enter city name: ")
