@@ -12,7 +12,7 @@ country=input("Enter country name: ")
 api_key=os.getenv("GEOCODE_API_KEY")
 params={
     "city":city,
-    "country":country,
+    "country":country,   # the country can be optional.if not provided then the details of the city will be  displayed where it is present.
 
 }
 headers={
